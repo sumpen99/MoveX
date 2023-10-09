@@ -1,0 +1,23 @@
+.backbutton-body{
+  border-bottom: 1px solid #aaa;
+  display: flex;
+  flex-direction: row;
+ }
+
+.backbutton{
+  cursor: pointer;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+  padding: 0px 0px 0px 10px;
+  font-size: large;
+  color: #f2f2f2;
+}
+
+.backbutton-label{
+  width: 50%;
+  display: flex;
+  justify-content: right;
+  text-align: right;
+ 
+}

@@ -1,0 +1,25 @@
+.contact-info {
+    text-align: center;
+    vertical-align: bottom;
+    padding: 10px 0;
+}
+ 
+.contact-info h2 {
+    margin-bottom: 20px;
+}
+ 
+.contact-info a {   
+    color:  rgb(184, 145, 113);  
+}
+
+.contact-info a:link {
+    color: rgb(184, 145, 113);
+    background-color: transparent;
+    text-decoration: none;
+ }
+
+.contact-info a:visited {
+    color:  rgb(184, 145, 113);
+    background-color: transparent;
+    text-decoration: none;
+ }

@@ -1,0 +1,7 @@
+.container-body-error{
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
