@@ -114,10 +114,10 @@ function validSearch(searchText,currentPage){
 
 function urlWithSearchTextAndPage(searchText,currentPage){
   const page = currentPage+1;
-  return `http://www.omdbapi.com/?apikey=603c16e8&s=${searchText}&plot=full&type=movie&page=${page}`;
+  return `https://www.omdbapi.com/?apikey=603c16e8&s=${searchText}&plot=full&type=movie&page=${page}`;
 }
 
 function urlWithImdbID(imdbID){
-  return `http://www.omdbapi.com/?apikey=603c16e8&i=${imdbID}&plot=full`;
+  return `https://www.omdbapi.com/?apikey=603c16e8&i=${imdbID}&plot=full`;
 }
 
