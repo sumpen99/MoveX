@@ -29,9 +29,6 @@ export const MoviePageRoute = () => {
     <CoorTransition page={body} name="info trans" transition={routeTransitionSpringFromBottom}/>
   );
   };
-  
-
-
 
 // SHEET
 export const MoviePageSheet = ({movieID,closeSheet}) => {
