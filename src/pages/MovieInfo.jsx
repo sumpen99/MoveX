@@ -72,7 +72,7 @@ const MovieInfoBody = ({movieID,action,addBackButton}) => {
   <div className="client-info-body" >
     {addBackButton ? 
       <BackButton icon= {String.fromCharCode(0x24E7)} label={movie.Title} onCloseAction={action}/> :
-      <PageHeader label={movieID}/>
+      <PageHeader label={movie.Title}/>
     }
     <div className="client-top-header">
       <div className="client-image-container"> <AsyncImage src={movie.Poster}></AsyncImage> </div>
